@@ -1,3 +1,16 @@
+/***********************************
+  Wish You Good Luck.
+
+  file name: quicksort.cpp
+  author: Bolun Wu
+  email: bowenwu@sjtu.edu.cn
+  created date: 2018/05/12
+  description: quick sort in C++
+
+***********************************/
+
+
+
 # include <iostream>
 using namespace std;
 
