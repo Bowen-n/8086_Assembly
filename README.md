@@ -11,17 +11,16 @@ The heart of quickSort is the **partition** algorithm. And I offered two ways to
 ### Hot to Use
 Download **EMU8086** [here](https://emu8086-microprocessor-emulator.en.softonic.com/). And *quick_sort.asm* can be run in **EMU8086**. It may take a while if you sort an array of length 50. You can change numbers to sort in the following part. Don't forget to change the value of r, which is *the length of array - 1*.
 
-<code>;-----------------------------------------<br>
-; array of N integers<br>
-arr dw ;N integers<br>
-;-----------------------------------------<br>
-i   dw  ?                           ; for loop<br>
-j   dw  ?                           ; for loop<br>
-p   dw  0                           ; start of the array (0)<br>
-r   dw  N-1                         ; end of the array (length - 1)<br>
-q   dw  ?                           ; store the partition return<br>
-x   dw  ?                           ; x is used in partition<br>
-</code>
+<code>;-----------------------------------------</code><br>
+<code>; array of N integers</code><br>
+<code>arr dw ;N integers</code><br>
+<code>;-----------------------------------------</code><br>
+<code>i   dw  ?                           ; for loop</code><br>
+<code>j   dw  ?                           ; for loop</code><br>
+<code>p   dw  0                           ; start of the array (0)</code><br>
+<code>r   dw  N-1                         ; end of the array (length - 1)</code><br>
+<code>q   dw  ?                           ; store the partition return</code><br>
+<code>x   dw  ?                           ; x is used in partition</code><br>
 
 
 ## TODO :triangular_flag_on_post:
