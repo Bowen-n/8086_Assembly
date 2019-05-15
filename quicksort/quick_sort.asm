@@ -21,7 +21,7 @@ data_seg segment
     i   dw  ?                           ; for loop
     j   dw  ?                           ; for loop
     p   dw  0                           ; start of the array (0)
-    r   dw  6                          ; end of the array (length - 1)
+    r   dw  49                          ; end of the array (length - 1)
     q   dw  ?                           ; store the partition return
     x   dw  ?                           ; x is used in partition
 
