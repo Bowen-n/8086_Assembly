@@ -9,7 +9,7 @@ I also implemented this algorithm with C in *quicksort.cpp*.
 The heart of quickSort is the **partition** algorithm. And I offered two ways to implement **partition** in C, which are in function <code>divide()</code> and <code>partition()</code>. <code>divide()</code> is faster but harder to implement in Assembly because there are many loops. <code>partition()</code> is easier to implement in Assembly, which is used in my *quick_sort.asm*.
 
 #### Hot to Use
-Download **EMU8086** [here](https://emu8086-microprocessor-emulator.en.softonic.com/). And *quick_sort.asm* can be run in **EMU8086**.
+Download **EMU8086** [here](https://emu8086-microprocessor-emulator.en.softonic.com/). And *quick_sort.asm* can be run in **EMU8086**. It may take a while if you sort an array of length 50.
 
 
 
