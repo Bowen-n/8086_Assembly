@@ -3,7 +3,7 @@ This is my assignment of IS224 in SJTU.
 
 ## 1. Quick Sort
 Implementation is shown in *quick_sort.asm* with detailed annotation.
-I also implemented this algorithm with C in *quicksort.cpp*.
+I also implemented this algorithm in C and Python. See *quicksort.cpp* and *quicksort.py* for details.
 
 ### Description
 The heart of quickSort is the **partition** algorithm. And I offered two ways to implement **partition** in C, which are in function <code>divide()</code> and <code>partition()</code>. <code>divide()</code> is faster but harder to implement in Assembly because there are many loops. <code>partition()</code> is easier to implement in Assembly, which is used in my *quick_sort.asm*.
